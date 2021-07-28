@@ -1,0 +1,49 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  page_1:
+    type: page
+    label: Page 1
+    match: '**/*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: category
+        label: Category
+      - type: string
+        name: tagline
+        label: Tagline
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+      - type: image
+        name: img
+        label: Img
+      - type: image
+        name: img-mobile
+        label: Img Mobile
+      - type: string
+        name: author
+        label: Author
+      - type: string
+        name: title2
+        label: Title 2
+      - type: string
+        name: title3
+        label: Title 3
+      - type: string
+        name: bgcolor
+        label: Bgcolor
+      - type: string
+        name: keywords
+        label: Keywords
+      - type: string
+        name: canonical
+        label: Canonical

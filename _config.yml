@@ -1,0 +1,64 @@
+permalink: '/:categories/:year/:month/:day/:title'
+exclude:
+  - .rvmrc
+  - .rbenv-version
+  - README.md
+  - Rakefile
+  - changelog.md
+highlighter: null
+markdown: kramdown
+extensions:
+  - fenced_code_blocks
+excerpt_separator: <!--more-->
+url: ''
+baseurl: ''
+data-ad-slot: null
+data-ad-client: null
+google_ad_client: null
+post_limit: 5
+title: Helium Jekyll
+tagline: Bootstrap 4 UI kit for jekyll
+author:
+  name: Antonio Trento
+  site: 'https://lantoniotrento.github.io'
+  description: I&#39;m a web master interested in communication applied to web marketing.
+  image: social-image.png
+  email: lantoniotrento@gmail.com
+  github: antoniotrento
+  twitter: lantoniotrento
+  facebook: lantoniotrento
+  linkedin: antoniotrento
+  instagram: lantoniotrento
+  pinterest: antoniotrento
+  feedburner: null
+twitter_username: lantoniotrento
+production_url: 'https://heliumjk.github.io'
+JB:
+  version: 0.3.0
+  BASE_PATH: 'https://heliumjk.github.io'
+  ASSET_PATH: 'https://heliumjk.github.io/assets/themes/bootstrap'
+  archive_path: /archive.html
+  categories_path: /categories.html
+  tags_path: /tags.html
+  atom_path: /atom.xml
+  rss_path: /rss.xml
+  comments:
+    provider: disqus
+    disqus:
+      short_name: jeky-new-age
+      num_posts: 5
+      width: 580
+      colorscheme: light
+  analytics:
+    provider: google
+    google:
+      tracking_id: null
+    getclicky:
+      site_id: null
+    mixpanel:
+      token: null
+    piwik:
+      baseURL: myserver.tld/piwik
+      idsite: '1'
+  sharing:
+    provider: false
